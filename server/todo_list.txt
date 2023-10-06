@@ -1,0 +1,25 @@
+*job posting title
+*login singup
+*job post update del
+*authentication
+*single post for user
+
+- multer
+- node_mailer
+- context api
+- redux toolkit
+
+
+- image edit feature in real time from user jobs page
+- show author name on job that is posted
+- add description as well a little bit when user view full post it should show whole description.
+- add fields for contact and also add fields for apply application
+- Take reference from job portal websites or linkedin, indeed or other jobs website,
+- and create awesome design
+- change design so that it feel appealing
+- use framework like tailwind or bootstrap to design all pages, use custom css as less as you can
+- create a route for every post when user click on view post, so another page should open with
+  all details and description of job
+- app search bar above and seaching should be in real time
+- create chatting feature so that 2 persons can chat together
+- alert will be handled later

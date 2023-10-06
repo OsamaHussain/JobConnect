@@ -1,0 +1,130 @@
+.container {
+  background-color: #0056b3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+.container h2 {
+  margin: 0;
+  color: floralwhite;
+}
+.innerContainer {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  justify-content: space-between;
+  height: 70px;
+}
+.innerContainer img {
+  border-radius: 50%;
+  border: 3px solid cadetblue;
+  cursor: pointer;
+}
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.innerContainer p {
+  /* font-family: Courier, monospace; */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  font-size: 14px;
+  color: #eee;
+  font-weight: 100 !important;
+  letter-spacing: 1px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.innerContainer svg {
+  border: 3px solid cadetblue;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  padding: 6px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown-button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-list {
+  position: absolute;
+  top: 140%;
+  right:  0;
+  background-color: white;
+  border: 1px solid #ccc;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  width: 300px;
+  border-radius: 10px;
+  /* padding: 15px; */
+}
+.dropdown-list p, .dropdown-list h2{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dropdown-list p {
+    font-size: 14px;
+}
+.dropdown-list h2 {
+    font-size: 18px;
+    color: #444;
+    font-weight: 500;
+}
+.section1--profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.dropdown-list li {
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+/* .dropdown:hover .dropdown-list {
+  display: block;
+} */
+
+.open {
+    display: block;
+}
+.section1--profile--container {
+    padding: 15px 15px 5px 15px;
+}
+.section1--profile--btn {
+    border: 1px solid #0056B3;
+    color: #0056B3;
+    padding: 3px 0;
+    background-color: transparent;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.section2--profile {
+    padding: 0 15px 0 15px;
+}
+.signout {
+    padding-bottom: 15px;
+}

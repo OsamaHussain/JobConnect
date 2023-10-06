@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>contenteditable Example</title>
+  <style>
+    .editable {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="editable" contenteditable="true">
+    This is an editable div. Try editing this text.
+  </div>
+
+  <script>
+    const editableDiv = document.querySelector('.editable');
+
+    editableDiv.addEventListener('input', () => {
+      // Do something with the edited content
+      console.log('Edited content:', editableDiv.textContent);
+    });
+  </script>
+</body>
+</html>
